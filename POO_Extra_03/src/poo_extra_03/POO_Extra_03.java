@@ -1,6 +1,9 @@
 
 package poo_extra_03;
 
+import entidades.Raices;
+import servicios.ServicioRaices;
+
 public class POO_Extra_03 {
 
     /*
@@ -28,9 +31,15 @@ delante de -b
     public static void main(String[] args) {
         
         
+        ServicioRaices SR = new ServicioRaices();
+        Raices R1 = new Raices();
         
-        
-        
+        SR.crearRaiz();
+        SR.tieneRaices(0);
+        SR.tieneRaiz(0);
+        SR.obtenerRaices(true, true, R1);
+        SR.obtenerRaiz(true, true, R1);
+        SR.calcular(true, true, true, true, true, true, R1);
     }
     
 }

@@ -1,6 +1,8 @@
 
 package poo_ejercicio_07;
 
+import servicios.servicioPersona;
+
 public class POO_Ejercicio_07 {
 
    /*
@@ -10,6 +12,7 @@ atributo, puede hacerlo. Los métodos que se implementarán son:
  Un constructor por defecto.
  Un constructor con todos los atributos como parámetro.
  Métodos getters y setters de cada atributo.
+    
  Metodo crearPersona(): el método crear persona, le pide los valores de los atributos
 al usuario y después se le asignan a sus respectivos atributos para llenar el objeto
 Persona. Además, comprueba que el sexo introducido sea correcto, es decir, H, M o
@@ -34,7 +37,11 @@ cuantas están por debajo de su peso, cuantas en su peso ideal y cuantos, por en
 también calcularemos un porcentaje de cuantos son mayores de edad y cuantos menores
     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        servicioPersona sp = new servicioPersona();
+        
+        
+        
     }
     
 }
